@@ -29,7 +29,7 @@ public class EventDaoDbImpl implements EventDao {
 
     @Override
     public Event getEvent(Long id) {
-        return eventRepository.findById(id).orElse(null);
+        return eventRepository .findById(id).orElse(null);
     }
 
     @Override
